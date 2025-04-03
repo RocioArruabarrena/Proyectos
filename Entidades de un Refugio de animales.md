@@ -1,4 +1,4 @@
-Entidades de un Refugio de animales
+Refugio de animales
 
 Perro: nombre, edad, peso, estado, raza
 Gato: nombre, edad, peso, estado, color_pelaje
@@ -15,25 +15,24 @@ _croquetas      _comida humeda  _zanahoria
 
 
 
-Class Animales {
+public class Animales {
     nombre: string,
     edad: numerico,
     peso: numerico,
     estado: string 
 },
 
-Class Perro extends Animales{
+private class Perro extends Animales{
     raza: string
 },
 
-Class Gato extends Animales{
+private class Gato extends Animales{
     color_pelaje: string
 },
 
-Class Loro extends Animales {
+private class Loro extends Animales {
     longitud_alas: string
 }
-
 
 
 
