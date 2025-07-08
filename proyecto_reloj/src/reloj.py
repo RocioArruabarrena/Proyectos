@@ -7,7 +7,7 @@ class Reloj:
         self._segundo = s % 60
 
     def __str__(self):
-        return f"{self._hora:02d}:{self._minuto:02d}:{self._segundo:02d}"
+        return print  f"{self._hora:02d}:{self._minuto:02d}:{self._segundo:02d}"
 
     def adelantar_minutos(self, minutos):
         total = self._hora * 60 + self._minuto + minutos
